@@ -33,7 +33,7 @@ $> forte "x=5; print *, x, x**2"
 $> forte
 ```
   e.g.
-```    `
+```
       $> forte
       $> integer :: x = 5
       $> print *, x, x**2
