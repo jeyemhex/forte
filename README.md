@@ -3,7 +3,7 @@ A short script able to execute Fortran 90 code from within the linux shell more 
 
 ## USAGE
 There are 4 ways to use this script:
-- From a pipe (Useful from within vim/emacs):
+- From a pipe (Useful from within vim/emacs/similar):
 ```
 <CMD PRODUCING FORTRAN SOURCE> | forte
 ```
