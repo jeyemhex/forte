@@ -53,7 +53,7 @@
 # Let's try and pick a unique binary name, but die if it already exists
 BIN=.fortran-$(date -Isecond)
 if [ -f "$BIN" ]; then
-  echo "ERROR: File $bin already exists!" >&2
+  echo "ERROR: File $BIN already exists!" >&2
   exit 1
 fi
 
