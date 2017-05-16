@@ -10,6 +10,7 @@ There are 4 ways to use this script:
  e.g.
 ```
 $> echo "x=5; print *, x, x**2" | forte
+   5.00000000       25.0000000
 ```
 - From a file:
 ```
@@ -17,7 +18,8 @@ forte <FILENAME>
 ```
   e.g.
 ```
-$> forte test.f90
+$> forte hello.f90
+ Hello, world!
 ```
 - From a string:
 ```
@@ -26,6 +28,7 @@ forte "<FORTRAN SOURCE>"
   e.g.
 ```
 $> forte "x=5; print *, x, x**2"
+   5.00000000       25.0000000 
 ```
 
 - From the command line (finish with "end"):
@@ -34,10 +37,11 @@ $> forte
 ```
   e.g.
 ```
-      $> forte
-      $> integer :: x = 5
-      $> print *, x, x**2
-      $> end
+$> forte
+$> integer :: x = 5
+$> print *, x, x**2
+$> end
+           5          25
 ```
 
 A customizable $HEADER and $FOOTER are available below if you want anything
